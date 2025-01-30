@@ -16,6 +16,7 @@ int main() {
   int shift = 0;
   scanf("%d", &shift);
 
+  //designating space to cypher
   char * cypher = malloc(sizeof(char) * 10);
   strcpy(cypher, word);
   for(int i = 0; i < strlen(word); i++){
