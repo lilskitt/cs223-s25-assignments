@@ -1,5 +1,5 @@
 /*----------------------------------------------
- * repear.c
+ * repeat.c
  * Author: Lola Peyrouse-Bremer
  * Date: February 4, 2025
  * Implements a program that asks for a string and a number then repeats that string that number of times
