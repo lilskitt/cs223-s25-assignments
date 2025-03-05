@@ -14,7 +14,7 @@ int main(int argc, char *argv[]) {
     for (int i = 2; input[i] != '\0'; i++) {
       //shift left by 4 bits
       decimalValue = decimalValue << 4;
-      if (input[i] <= '9') {
+      if (input[i] >= '0' && input[i] <= '9') {
         //for 0-9
         decimalValue |= (input[i] - '0');
       } else if (input[i] >= 'A' && input[i] <= 'F') {
